@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Quiz</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <script src="https://use.fontawesome.com/2f79603348.js"></script>
+    
+</head>
+<body>
+ 
+ <div class="container">
+   <div class="containerinner">
+        <h1><img id="headerimg" src="img/logo_got.png" alt="" width="100%"></h1>
+       
+        <h2 id="question"></h2>
+        
+        <form onsubmit="check()">
+          <ul id="options">
+              <li>
+                  <input type="radio" value="0" name="answer" id="answer0"><span id="option0"></span>
+              </li>
+              <li>
+                  <input type="radio" value="1" name="answer" id="answer1"><span id="option1"></span>
+              </li>
+              <li>
+                  <input type="radio" value="2" name="answer" id="answer2"><span id="option2"></span>
+              </li>
+              <li>
+                  <input type="radio" value="3" name="answer" id="answer3"><span id="option3"></span>
+              </li>
+          </ul>
+          
+          <div id="quotecontainer">
+              <i class="fa fa-quote-right"></i>
+              <p id="quote">It's a big and beautiful world. Most of us live and die in the same corner where we were born, and never get to see any of it. I don't want to be most of us.</p>
+              <span> - </span>
+              <span id="whosaidit">Oberyn Martell</span>
+          </div>
+          
+          <span id="sentence"></span> <br>
+          <img id="gif" src="" alt="" width="50%">
+          
+          <div id="button">
+              <a href="#" class="btn" name="next" id="next" type="submit">Next</a>
+          </div>
+          
+        </form>
+   </div>
+   <div id="me">
+       <span>V|L</span>
+   </div>
+   
+ </div>
+  
+   
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+    
+</body>
+</html>

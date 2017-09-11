@@ -1,0 +1,72 @@
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    width:100%;
+    padding-top:5rem;
+}
+
+.containerinner {
+    width:40%;
+    height:auto;
+    margin:0 auto;
+    border:2px solid #222;
+    text-align: left;
+    padding:10px;
+}
+
+@media only screen and (max-width:1200px) {
+    .containerinner {
+        width:85%;
+        padding:25px;
+    }
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom:4rem;
+    border-bottom:2px solid #222;
+}
+
+/*
+form ul {
+    border-left:8px solid #969696;
+}
+*/
+
+form ul li{
+    list-style:none;
+    margin:5px;
+}
+
+#quotecontainer {
+    margin-top:4rem;
+    border-left:8px solid #969696;
+    padding:0 0 0 10px;
+    font-style: italic;
+}
+
+#button {
+    margin-top:3rem;
+    margin-bottom:1rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding:3px;
+    background: transparent;
+    border:1px solid #222;
+    color:black;
+}
+
+.btn:hover {
+    color:white;
+    background:#222;
+}
+
+#me {
+    text-align: center;
+    margin-top:5rem;
+}
