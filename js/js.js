@@ -50,7 +50,7 @@ allQuestions[5] = {
 allQuestions[6] = {
     question: "Who is the Lord Commander of the Night's Watch before Jon Snow?",
     options: ["Jeor Mormont", "Alliser Thorne", "Olly", "Eddison Tollett"],
-    correct: 1,
+    correct: 0,
     img: "img/nightswatch.jpg",
     quote: "Night gathers and now my watch begins.",
     who: "The Night's Watch"
